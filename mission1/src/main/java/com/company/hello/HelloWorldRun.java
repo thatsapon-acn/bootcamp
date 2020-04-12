@@ -1,0 +1,11 @@
+package com.company.hello;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+@SpringBootApplication
+
+public class HelloWorldRun {
+    public static void main(String[] args){
+        SpringApplication.run(HelloApplication.class, args);
+    }
+}
